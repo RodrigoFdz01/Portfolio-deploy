@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
+
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    
+    <!-- HEADER-NAV -->
+    <header class="header-container">
+   <nav class="nav-container">
+     <p>Rodrigo Fernandez</p>
+   <div>
+     <ul class="nav-ul">
+       <li class="nav-item">
+         <a class="nav-linka" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-linka" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-linka" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-linka" href="#aboutme">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-linka" href="#contact">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+</header>
+  
+  <!-- HOME -->
+  <section id="home">
+    <div class="presentation">
+      <div class="foto-div"> 
+          <img src="foto.png" alt="" />
+        </div>
+        <div class="presentation-details">
+          <h1><span class="presentation__saludo">
+            Welcome,I'm Rodrigo.</h1>
+          </span> 
+          <h3><span id="titulo" class="presentation__detalles">
+            Frontend Developer</h3>
+          </span>
+          <p><span class="presentation__detalles">
+            Looking for new opportunities to improve my skills</p>
+          </span>
+            <div class="contain-cv">
+              <a href="CV-Rodrigo Iván Fernández.pdf" download class="cv">
+                Download CV
+              </a>
+            </div>
+          </div>
+      </div>
+    </section>
+      
+  
+    <!-- PROJECTS -->
+    <section class= "portfolio" id="portfolio">    
+      <h2 id="titulo">Portfolio</h2>
+
+      <div class="container__cards">
+
+        <div class="cards">
+          <li><img src="2.jpeg"  id="capturas" alt="1" srcset=""></li>
+          <li><h3>Movies Project</h3></li>
+          <li><p>Simple React JS Movie App about some of my favourites movies-Just for Desktop</p></li>
+          <li>
+            <div>
+            <a href="https://movies-project-vercel.vercel.app/">
+              <i class="bi bi-link-45deg"></i>
+            </a>
+            <a href="https://github.com/RodrigoFdz01/Movies-Project">
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+          </li>
+        </div> 
+
+        <div class="cards">
+          <li><img src="5.jpg"  id="capturas" alt="2" srcset=""></li>
+          <li><h3>Rick and Morty</h3></li>
+          <li><p>Simple React application based on Rick and Morty API tv show serie</p></li>
+          <li>
+            <div>
+              <a href="https://rick-and-morty-vercel.vercel.app/">
+                <i class="bi bi-link-45deg"></i>   
+              </a>
+              <a href="https://github.com/RodrigoFdz01/RickandMorty-React">
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+          </li>
+        </div> 
+
+
+        <div class="cards">
+          <li><img src="3.jpg"  id="capturas" alt="3" srcset=""></li>
+          <li><h3>Color Game</h3></li>
+          <li><p>Simple color guessing game based on given RGB code using HTML, CSS, Vanilla JS</p></li>
+          <li>
+            <div>
+              <a href="https://colorgame-picker.netlify.app/">
+                <i class="bi bi-link-45deg"></i>
+              </a>
+              <a href="https://github.com/RodrigoFdz01/ColorGame">
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+          </li>
+        </div> 
+
+
+        <div class="cards">
+          <li><img src="4.png"  id="capturas" alt="4" srcset=""></li>
+          <li><h3>Weather channel</h3></li>
+          <li><p>Simple API for OpenWeatherMap-JavaScript, CSS and HTML.</p></li>
+          <li>
+            <div>
+              <a href="https://weatherchannel-city.netlify.app/">
+                <i class="bi bi-link-45deg"></i>
+              </a>
+              <a href="https://github.com/RodrigoFdz01/Weather-Channel">
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+          </li>       
+        </div> 
+
+
+      </div>
+
+    </section>
+    
+    
+    <!--Skills -->
+    <section class="skills" id="skills">
+      <h2  id="titulo">Skills</h2>
+      <div class="logos-skills" >
+        <li><img class="logos-skills-img" style="height:50px; margin:20px;" id="logosTime" src="./Skills logo/html.svg" alt="" srcset=""></li>
+        <li><img class="logos-skills-img" style="height:50px; margin:20px;" id="logosTime" src="./Skills logo/css.svg" alt="" srcset=""></li>
+        <li><img class="logos-skills-img" style="height:50px; margin:20px;" id="logosTime" src="./Skills logo/js.svg" alt="" srcset=""></li>
+        <li><img class="logos-skills-img" style="height:50px; margin:20px;" id="logosTime" src="./Skills logo/react.svg" alt="" srcset=""></li>
+        <li><img class="logos-skills-img" style="height:50px; margin:20px;" id="logosTime" src="./Skills logo/git.svg" alt="" srcset=""></li>
+        <li><img class="logos-skills-img" style="height:50px; margin:20px;" id="logosTime" src="./Skills logo/github-icon.svg" alt="" srcset=""></li>
+        <li><img class="logos-skills-img" style="height:50px; margin:20px;" id="logosTime" src="./Skills logo/bootstrap.svg" alt="" srcset=""></li>
+        <li><img class="logos-skills-img" style="height:50px; margin:20px;" id="logosTime" src="./Skills logo/vscode.svg" alt="" srcset=""></li>
+        
+      </div >
+    </section>
+
+    <!--About me -->
+
+    <section id="aboutme">
+      <div class="container-about">
+        <div class="container-about-detalles">
+          <h2 id="titulo">About me</h2>
+          <p>
+            After ten years, I made the decision I had years ago and arrive at the programming industry. 
+            My goal is to acquire new experiences in the development area to improve my knowledge and 
+            continue to hone my skills and grow professionally in the industry.
+          </p>
+        </div>
+        <img src="Diseño sin título.jpg"   alt="10" >
+      </div>
+    </section>
+
+
+      
+  <footer class="footer">
+      <div class="redes" id="contact">
+      <a href="https://www.linkedin.com/in/fernandezrodrigoin/" >
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://github.com/RodrigoFdz01" >
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="mailto:rodrigof3012@gmail.com" >
+        <i class="bi bi-envelope"></i>
+      </a>
+      </div>
+
+
+    <div class="copyright">
+        <p>© 2022 All rights reserved | 
+          Rodrigo Fernandez
+        </p>
+        <a class="redes"  href="#" >
+          <i class="bi bi-file-arrow-up"></i>
+        </a>
+      </div>
+    </footer>
+            
+    
+    <script src="Portfolio.js" ></script>
+  </body>
+</html>

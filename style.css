@@ -1,0 +1,800 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  width: 100%;
+  height: 10vh;
+  background-color: hsl(230deg 28% 12%);
+  position: fixed;
+  z-index: 10;
+  margin-bottom: 100px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-container p {
+  color: white;
+  font-family: monospace;
+  font-weight: bolder;
+  text-align: center;
+  margin: 12px;
+}
+.nav-ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  margin: 12px;
+}
+.nav-item {
+  margin: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav-linka {
+  list-style: none;
+  color: dodgerblue;
+  text-decoration: none;
+}
+.nav-linka:hover {
+  color: white;
+}
+
+.presentation {
+  background: linear-gradient(111deg, rgb(25, 109, 177), rgb(168, 39, 168));
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 99vh;
+  padding: 6rem;
+}
+.presentation__saludo {
+  font-family: "Marko One", serif;
+  font-weight: 200;
+  color: white;
+  font-size: 55px;
+}
+.presentation__detalles {
+  color: #bec1c4;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 400px;
+}
+.contain-cv {
+  margin: 50px 50px 50px 0px;
+}
+.cv {
+  background-color: rgb(18, 106, 194);
+
+  border-radius: 10px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  padding: 20px;
+}
+.cv:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.portfolio {
+  background-color: #343a40;
+  color: white;
+  height: 100vh;
+  padding: 6rem;
+}
+.container__cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cards {
+  background-color: hsl(230deg 28% 12%);
+  height: 450px;
+  width: 400px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.cards li {
+  list-style: none;
+  text-decoration: none;
+}
+.cards h3 {
+  font-size: 25px;
+  color: #576ee0;
+  margin: 20px 0px 20px 0px;
+}
+
+.cards p {
+  color: white;
+  margin: 20px 3px 20px 3px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.cards a {
+  font-size: 40px;
+  margin: 10px;
+  color: #363842;
+  transform: rotate(130deg);
+  list-style: none;
+  text-decoration: none;
+}
+.cards a:hover {
+  color: #fff;
+}
+
+#wraper {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-height: 100px;
+  max-width: 98%;
+}
+
+#capturas {
+  height: 200px;
+  width: 98%;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.skills {
+  height: 100%;
+  padding: 9rem;
+  height: 70vh;
+  background: linear-gradient(111deg, rgb(25, 91, 177), rgb(168, 39, 168));
+}
+
+.logos-skills {
+  padding: 3%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logosTime {
+  transform: rotate(350deg);
+
+  transition: 1s;
+}
+
+.container-about {
+  display: flex;
+  height: 60vh;
+  background: linear-gradient(45deg, rgb(25, 91, 177), rgb(168, 39, 168));
+
+  margin: auto;
+}
+.container-about-detalles {
+  width: 50%;
+  margin: auto;
+}
+.container-about-detalles p {
+  margin: 30px;
+  color: #b8bcbe;
+  line-height: 1.8;
+}
+.container-about img {
+  height: 48vh;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #161927;
+}
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.copyright {
+  color: rgb(152, 147, 147);
+  text-align: center;
+  padding: 15px;
+}
+.redes i {
+  font-size: 30px;
+  margin: 15px;
+  color: #2e313f;
+}
+.redes i:hover {
+  color: rgb(161, 159, 159);
+}
+#titulo {
+  font-family: "Marko One", serif;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (min-width: 1025px) {
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header-container {
+    height: 10vh;
+    width: 100%;
+    background-color: hsl(230deg 28% 12%);
+    margin-bottom: 70px;
+    padding: 0;
+    position: fixed;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-ul {
+    width: auto;
+    margin: 0;
+    text-align: center;
+  }
+  .nav-linka {
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 1px;
+    margin: 0px;
+  }
+  .nav-item {
+    margin: 3px;
+  }
+
+  .presentation {
+    background: linear-gradient(111deg, rgb(25, 109, 177), rgb(168, 39, 168));
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 99vh;
+    padding: 6rem;
+  }
+  .foto-div {
+    margin: 30px;
+    width: 70%;
+  }
+  .presentation img {
+    height: 250px;
+  }
+
+  .presentation__saludo {
+    font-weight: 200;
+    font-size: 25px;
+    margin: auto;
+  }
+
+  .cv {
+    background-color: dodgerblue;
+    border-radius: 10px;
+    color: white;
+    padding: 18px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .portfolio {
+    height: auto;
+    margin: 0;
+    padding: 8px;
+  }
+  .container__cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .cards {
+    height: 420px;
+    width: 85%;
+    margin: 10px;
+    width: 280px;
+  }
+  #capturas {
+    height: 180px;
+    width: 98%;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .cards h3 {
+    font-size: 20px;
+  }
+
+  .cards a {
+    font-size: 30px;
+    color: #74757a;
+  }
+
+  .skills {
+    width: 100%;
+    padding: 4rem;
+    height: auto;
+    margin: auto;
+    background: linear-gradient(111deg, rgb(25, 91, 177), rgb(168, 39, 168));
+  }
+  .logos-skills {
+    display: grid;
+    grid-gap: 2rem 3rem;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(3rem, 2fr));
+    max-width: 100%;
+  }
+  .logos-skills-img {
+    height: 35px;
+    margin: 15px;
+  }
+
+  .container-about {
+    display: block;
+    height: auto;
+  }
+  .container-about-detalles {
+    margin: auto;
+    width: auto;
+  }
+  .container-about-detalles p {
+    text-align: center;
+    width: auto;
+    margin: 0px;
+    font-size: 13px;
+    color: #b8bcbe;
+    line-height: 1.3;
+    padding: 18px;
+  }
+  .container-about img {
+    display: none;
+  }
+
+  #titulo {
+    margin: auto;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .header-container {
+    height: 8vh;
+    width: 100%;
+    background-color: hsl(230deg 28% 12%);
+    text-align: center;
+    margin-bottom: 70px;
+    padding: 0;
+    position: fixed;
+  }
+
+  .nav-container {
+    display: inline-block;
+  }
+  .nav-container p {
+    display: none;
+  }
+  .nav-ul {
+    width: auto;
+    margin: 0;
+    text-align: center;
+  }
+  .nav-linka {
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 1px;
+    margin: 0px;
+  }
+  .nav-item {
+    margin: 3px;
+  }
+
+  .presentation {
+    background: linear-gradient(111deg, rgb(25, 109, 177), rgb(168, 39, 168));
+    width: auto;
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+    height: auto;
+    padding: 60px 0 0 0;
+  }
+  .foto-div {
+    margin: auto;
+    width: 100%;
+  }
+  .presentation img {
+    margin-left: 35%;
+  }
+  .presentation-details {
+    width: auto;
+    padding: 5px;
+    margin: 10px 10px 0px 10px;
+    text-align: center;
+  }
+  .presentation__saludo {
+    font-weight: 200;
+    font-size: 25px;
+    margin: auto;
+  }
+
+  .contain-cv {
+    padding: 25px;
+    margin: auto;
+  }
+  .cv {
+    background-color: dodgerblue;
+    border-radius: 10px;
+    color: white;
+    padding: 18px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .portfolio {
+    height: auto;
+    margin: 0;
+    padding: 8px;
+  }
+  .container__cards {
+    display: inline;
+    margin: 0;
+  }
+
+  .cards {
+    height: auto;
+    width: 75%;
+    margin: 10px auto 10px;
+  }
+  #capturas {
+    height: 350px;
+  }
+
+  .cards h3 {
+    font-size: 22px;
+  }
+
+  .cards a {
+    font-size: 30px;
+    color: #74757a;
+  }
+
+  .skills {
+    width: 100%;
+    padding: 4rem;
+    height: auto;
+    margin: auto;
+    background: linear-gradient(111deg, rgb(25, 91, 177), rgb(168, 39, 168));
+  }
+  .logos-skills {
+    display: grid;
+    grid-gap: 2rem 3rem;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(3rem, 2fr));
+    max-width: 100%;
+  }
+  .logos-skills-img {
+    height: 35px;
+    margin: 15px;
+  }
+
+  .container-about {
+    display: block;
+    height: auto;
+  }
+  .container-about-detalles {
+    margin: auto;
+    width: auto;
+  }
+  .container-about-detalles p {
+    text-align: center;
+    width: auto;
+    margin: 0px;
+    font-size: 13px;
+    color: #b8bcbe;
+    line-height: 1.3;
+    padding: 18px;
+  }
+  .container-about img {
+    display: none;
+  }
+
+  #titulo {
+    margin: auto;
+    font-size: 20px;
+  }
+}
+@media (min-width: 376px) and (max-width: 425px) {
+  .header-container {
+    height: 10vh;
+    width: 100%;
+    background-color: hsl(230deg 28% 12%);
+    margin-bottom: 70px;
+    padding: 0;
+    position: fixed;
+  }
+
+  .nav-container {
+    display: inline-block;
+  }
+  .nav-container p {
+    display: none;
+  }
+  .nav-ul {
+    width: auto;
+    margin: 0;
+    text-align: center;
+  }
+  .nav-linka {
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 1px;
+    margin: 0px;
+  }
+  .nav-item {
+    margin: 3px;
+  }
+
+  .presentation {
+    background: linear-gradient(111deg, rgb(25, 109, 177), rgb(168, 39, 168));
+    width: auto;
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+    height: auto;
+    padding: 60px 0 0 0;
+  }
+  .foto-div {
+    margin: auto;
+    width: 100%;
+  }
+  .presentation img {
+    margin-left: 25%;
+  }
+  .presentation-details {
+    width: auto;
+    padding: 5px;
+    margin: 10px 10px 0px 10px;
+    text-align: center;
+  }
+  .presentation__saludo {
+    font-weight: 200;
+    font-size: 25px;
+    margin: auto;
+  }
+
+  .contain-cv {
+    padding: 25px;
+    margin: auto;
+  }
+  .cv {
+    background-color: dodgerblue;
+    border-radius: 10px;
+    color: white;
+    padding: 18px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .portfolio {
+    height: auto;
+    margin: 0;
+    padding: 8px;
+  }
+  .container__cards {
+    display: inline;
+    margin: 0;
+  }
+
+  .cards {
+    height: 400px;
+    width: 75%;
+    margin: 10px auto 10px;
+  }
+
+  .cards h3 {
+    font-size: 22px;
+  }
+
+  .cards a {
+    font-size: 30px;
+    color: #74757a;
+  }
+
+  .skills {
+    width: 100%;
+    padding: 4rem;
+    height: auto;
+    margin: auto;
+    background: linear-gradient(111deg, rgb(25, 91, 177), rgb(168, 39, 168));
+  }
+  .logos-skills {
+    display: grid;
+    grid-gap: 2rem 3rem;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(3rem, 2fr));
+    max-width: 100%;
+  }
+  .logos-skills-img {
+    height: 35px;
+    margin: 15px;
+  }
+
+  .container-about {
+    display: block;
+    height: auto;
+  }
+  .container-about-detalles {
+    margin: auto;
+    width: auto;
+  }
+  .container-about-detalles p {
+    text-align: center;
+    width: auto;
+    margin: 0px;
+    font-size: 13px;
+    color: #b8bcbe;
+    line-height: 1.3;
+    padding: 18px;
+  }
+  .container-about img {
+    display: none;
+  }
+
+  #titulo {
+    margin: auto;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .header-container {
+    height: 10vh;
+    width: 100%;
+    background-color: hsl(230deg 28% 12%);
+    margin-bottom: 70px;
+    padding: 0;
+    position: fixed;
+  }
+
+  .nav-container {
+    display: inline-block;
+  }
+  .nav-container p {
+    display: none;
+  }
+  .nav-ul {
+    width: auto;
+    margin: 0;
+    text-align: center;
+  }
+  .nav-linka {
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 1px;
+    margin: 0px;
+  }
+  .nav-item {
+    margin: 3px;
+  }
+
+  .presentation {
+    background: linear-gradient(111deg, rgb(25, 109, 177), rgb(168, 39, 168));
+    width: auto;
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+    height: auto;
+    padding: 60px 0 0 0;
+  }
+  .foto-div {
+    margin: auto;
+    width: 68%;
+  }
+  .presentation-details {
+    width: auto;
+    padding: 5px;
+    margin: 10px 10px 0px 10px;
+    text-align: center;
+  }
+  .presentation img {
+    margin: auto;
+  }
+  .presentation__saludo {
+    font-weight: 200;
+    font-size: 25px;
+    margin: auto;
+  }
+
+  .contain-cv {
+    padding: 25px;
+    margin: auto;
+  }
+  .cv {
+    background-color: dodgerblue;
+    border-radius: 10px;
+    color: white;
+    padding: 18px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .portfolio {
+    height: auto;
+    margin: 0;
+    padding: 8px;
+  }
+  .container__cards {
+    display: inline;
+    margin: 0;
+  }
+
+  .cards {
+    height: 400px;
+    width: 95%;
+    margin: 5px;
+  }
+
+  .cards h3 {
+    font-size: 22px;
+  }
+
+  .cards a {
+    font-size: 30px;
+    color: #74757a;
+  }
+
+  .skills {
+    width: 100%;
+    padding: 4rem;
+    height: auto;
+    margin: auto;
+    background: linear-gradient(111deg, rgb(25, 91, 177), rgb(168, 39, 168));
+  }
+  .logos-skills {
+    display: grid;
+    grid-gap: 2rem 3rem;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(3rem, 2fr));
+    max-width: 100%;
+  }
+  .logos-skills-img {
+    height: 35px;
+    margin: 15px;
+  }
+
+  .container-about {
+    display: block;
+    height: auto;
+  }
+  .container-about-detalles {
+    margin: auto;
+    width: auto;
+  }
+  .container-about-detalles p {
+    text-align: center;
+    width: auto;
+    margin: 0px;
+    font-size: 13px;
+    color: #b8bcbe;
+    line-height: 1.3;
+    padding: 18px;
+  }
+  .container-about img {
+    display: none;
+  }
+
+  #titulo {
+    margin: auto;
+    font-size: 20px;
+  }
+}
